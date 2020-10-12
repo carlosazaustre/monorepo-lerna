@@ -1,0 +1,6 @@
+.log
+.DS_Store
+.vscode
+.jest-*
+lib
+node_modules
