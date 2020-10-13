@@ -224,3 +224,14 @@ lerna success version finished
 
 The tags have been pushed to GitHub. If we wanted to release our packages to
 NPM, we would use `npx lerna publish` instead.
+
+### 🚧 TODOs
+
+- Linting and formating with:
+  - [ESLint](https://eslint.org/)
+  - [Stylelint](https://github.com/stylelint/stylelint)
+  - [Prettier](https://prettier.io/)
+- Pre-commit hooks with [Husky](https://github.com/typicode/husky)
+- Automate [semver](https://semver.org/) on releases using
+  [conventional commits](https://www.conventionalcommits.org/)
+- Create a theme package to shre across all other packages.
